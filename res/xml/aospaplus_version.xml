@@ -18,12 +18,6 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/aospaplus_version_title">
 
-    <!-- aospaplusOS logo -->
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="aospaplus_logo"
-        android:layout="@layout/aospaplus_logo"
-        android:selectable="false"/>
-
     <!-- aospaplusOS version -->
     <Preference
         android:key="aospaplus_os_version"
