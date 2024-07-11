@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 ReloadedOS
+     Copyright (C) 2024 Aospa Plus
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Aospa Plus versioning -->
+    <string name="aospaplus_version_title">Aospa Plus version</string>
+    <string name="aospaplus_build_type">Build type</string>
+    <string name="aospaplus_build_variant">Build variant</string>
+    <string name="aospaplus_clo_revision">CLO revision</string>
+    <string name="aospaplus_device">Device</string>
+    <string name="aospaplus_device_maintainer">Device maintainer</string>
+    <string name="tap_to_view">Tap to view</string>
+
+    <!-- Aospa Plus Xtras -->
+    <string name="aospaplus_xtras_dash_title">Aospa Plus Xtras</string>
+    <string name="aospaplus_xtras_summary">Additional customizations</string>
+
+</resources>

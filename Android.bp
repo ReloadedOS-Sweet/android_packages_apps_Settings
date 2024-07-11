@@ -75,11 +75,14 @@ android_library {
         "btadva_settings_java_defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt",
+           "AospaPlusXtras/src/**/*.java"],
+    aaptflags: ["--extra-packages org.aospaplusos.xtras"],
     resource_dirs: [
         "res",
         "res-export", // for external usage
         "res-product",
+        "AospaPlusXtras/res",
     ],
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -126,6 +129,7 @@ android_library {
         "androidx.room_room-runtime",
         "SystemUIUnfoldLib",
         "co.aospa.framework",
+        "kotlin-stdlib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],

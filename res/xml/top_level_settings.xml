@@ -117,6 +117,14 @@
         settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="org.aospaplusos.xtras.AospaPlusXtras"
+        android:icon="@drawable/ic_settings_aospaplus"
+        android:key="top_level_aospaplus_xtras"
+        android:order="-65"
+        android:title="@string/aospaplus_xtras_dash_title"
+        android:summary="@string/aospaplus_xtras_summary"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
         android:icon="@drawable/ic_settings_accessibility"
         android:key="top_level_accessibility"

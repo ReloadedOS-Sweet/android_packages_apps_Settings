@@ -72,4 +72,10 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
 
+    <Preference
+        android:key="aospaplus_version"
+        android:title="@string/aospaplus_version_title"
+        android:summary="@string/tap_to_view"
+        settings:fragment="com.android.settings.deviceinfo.AospaplusVersionSettings"/>
+
 </PreferenceScreen>

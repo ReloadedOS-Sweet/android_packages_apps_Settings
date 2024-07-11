@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2022 ReloadedOS
+  Copyright (C) 2024 Aospa Plus
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+       http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/aospaplus_version_title">
+
+    <!-- aospaplusOS logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="aospaplus_logo"
+        android:layout="@layout/aospaplus_logo"
+        android:selectable="false"/>
+
+    <!-- aospaplusOS version -->
+    <Preference
+        android:key="aospaplus_os_version"
+        android:title="@string/aospaplus_version_title"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.AospaplusVersionDetailPreferenceController"/>
+
+    <!-- Build type -->
+    <Preference
+        android:key="aospaplus_build_type"
+        android:title="@string/aospaplus_build_type"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"/>
+
+    <!-- Build variant -->
+    <Preference
+        android:key="aospaplus_build_variant"
+        android:title="@string/aospaplus_build_variant"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"/>
+
+    <!-- CLO revision -->
+    <Preference
+        android:key="aospaplus_clo_revision"
+        android:title="@string/aospaplus_clo_revision"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"/>
+
+    <!-- Device name -->
+    <Preference
+        android:key="aospaplus_device"
+        android:title="@string/aospaplus_device"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"/>
+
+    <!-- Device maintainer -->
+    <Preference
+        android:key="aospaplus_device_maintainer"
+        android:title="@string/aospaplus_device_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"/>
+
+</PreferenceScreen>

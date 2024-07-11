@@ -51,13 +51,15 @@
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
-        <!-- Paranoid Android version -->
+        <!-- Aospa Plus version -->
         <Preference
-        android:key="aospa_version"
+            android:key="aospaplus_version"
             android:order="4"
-            android:title="@string/aospa_version"
+            android:title="@string/aospaplus_version_title"
             android:summary="@string/summary_placeholder"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.ParanoidAndroidVersionPreferenceController"/>
+            settings:enableCopying="true"
+            settings:fragment="com.android.settings.deviceinfo.AospaplusVersionSettings"
+            settings:controller="com.android.settings.deviceinfo.AospaplusVersionPreferenceController"/>
 
         <!-- Account name -->
         <Preference
