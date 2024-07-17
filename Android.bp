@@ -130,6 +130,7 @@ android_library {
         "SystemUIUnfoldLib",
         "co.aospa.framework",
         "kotlin-stdlib",
+        "VendorSupport-preference",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
