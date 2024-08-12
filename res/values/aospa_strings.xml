@@ -284,36 +284,6 @@
     <string name="immersive_navigation_title">Immersive Navigation</string>
     <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding.</string>
 
-    <!-- App lock timeout -->
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-
-    <!-- App lock timeout -->
-    <string-array name="app_lock_timeout_entries">
-        <item>@string/custom_timeout_summary_5secs</item>
-        <item>@string/custom_timeout_summary_10secs</item>
-        <item>@string/custom_timeout_summary_30secs</item>
-        <item>@string/custom_timeout_summary_1min</item>
-        <item>@string/custom_timeout_summary_5mins</item>
-        <item>@string/custom_timeout_summary_10mins</item>
-        <item>@string/custom_timeout_summary_30mins</item>
-    </string-array>
-
-    <string-array name="app_lock_timeout_values" translatable="false">
-        <item>5000</item>
-        <item>10000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>300000</item>
-        <item>600000</item>
-        <item>1800000</item>
-    </string-array>
-
     <!-- Battery light -->
     <string name="battery_light_title">Battery light</string>
 
